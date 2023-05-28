@@ -8,7 +8,7 @@ test('(123) 456-7890 is a valid phone number', () => {;
     expect(functions.isPhoneNumber('(123) 456-7890')).toBe(true);
 });
 
-test('123 456-7890 is a valid phone number', () => {;
+test('123-456-7890 is a valid phone number', () => {;
     expect(functions.isPhoneNumber('123-456-7890')).toBe(true);
 });
 
