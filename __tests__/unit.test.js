@@ -12,7 +12,7 @@ test('123-456-7890 is a valid phone number', () => {;
     expect(functions.isPhoneNumber('123-456-7890')).toBe(true);
 });
 
-test('1234 is not a valid phone number', () => {;
+test('123-456 is not a valid phone number', () => {;
     expect(functions.isPhoneNumber('123-456')).toBe(false);
 });
 
