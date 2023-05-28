@@ -16,7 +16,7 @@ test('1234 is not a valid phone number', () => {;
     expect(functions.isPhoneNumber('123-456')).toBe(false);
 });
 
-test('abcd is not a valid phone number', () => {;
+test('hellothere is not a valid phone number', () => {;
     expect(functions.isPhoneNumber('hellothere')).toBe(false);
 });
 
